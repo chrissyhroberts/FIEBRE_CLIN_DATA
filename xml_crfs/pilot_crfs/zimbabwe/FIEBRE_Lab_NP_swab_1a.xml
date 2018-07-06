@@ -1,0 +1,2669 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>FIEBRE_Zim_Lab_NP_Swab</h:title>
+    <model>
+      <submission base64RsaPublicKey="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0vVMGKkSNYi4lVFZMfV0Ajh8+9V/BqHeCGGunv+qCPsJEbR5tgxBu6R91LiTKSoKp79ZJ4wngPvI4TQSRNDjyBrswnrlh7z5I6u5b5WBzDaloYy3X0poRyWEgAXPJUtfKPNay1aR72oBNie5U4iFFttqTkIVIMOrJ0Y3jycIOiI2A2lP3W9aCgugV8TKq4Oo1SuCwwnF5X1PyUk/hodri8BKRWAjC1DSHTDX8gFOSsh8fb72GhGVc8qUj4bYsSXy0T3aXb3qUIkLbu5/1mmHxK7wRj+2v1qZGuQj4YzwhP3uRia3cJgav7EE5n4For0AHDeUwGVTlJx1p4ctTcXDLwIDAQAB" method="form-data-post"/>
+      <itext>
+        <translation default="true()" lang="English (en)">
+          <text id="static_instance-health_centre_name-8">
+            <value>Manhiça District Hospital</value>
+          </text>
+          <text id="static_instance-health_centre_name-9">
+            <value>Maragra, Malavele</value>
+          </text>
+          <text id="static_instance-language-0">
+            <value>English</value>
+          </text>
+          <text id="static_instance-health_worker_name-18">
+            <value>Molly Sibanda</value>
+          </text>
+          <text id="static_instance-health_centre_name-1">
+            <value>Laos Health Centre 2</value>
+          </text>
+          <text id="static_instance-health_centre_name-2">
+            <value>Laos Health Centre 3</value>
+          </text>
+          <text id="static_instance-health_centre_name-3">
+            <value>Other Laos Health Centre</value>
+          </text>
+          <text id="static_instance-health_centre_name-4">
+            <value>Chikwawa District Hospital</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST:label">
+            <value>NP12: NP swab storage locations</value>
+          </text>
+          <text id="static_instance-health_centre_name-6">
+            <value>Malawi Health Centre 3</value>
+          </text>
+          <text id="static_instance-health_centre_name-7">
+            <value>Other Malawi Health Centre</value>
+          </text>
+          <text id="static_instance-healthcare_provider-1">
+            <value>Pharmacy/drug shop</value>
+          </text>
+          <text id="static_instance-anti_fungal_names-6">
+            <value>Other anti-fungal</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/visit/enrollment:label">
+            <value>Enrollment</value>
+          </text>
+          <text id="static_instance-muscle-3">
+            <value form="image">jr://images/trso.jpg</value>
+            <value>Torso</value>
+          </text>
+          <text id="static_instance-ethnicity-55">
+            <value>Patient refused to disclose</value>
+          </text>
+          <text id="static_instance-ethnicity-52">
+            <value>Taliang</value>
+          </text>
+          <text id="static_instance-ethnicity-38">
+            <value>Lavae/Brao</value>
+          </text>
+          <text id="static_instance-ethnicity-50">
+            <value>Sou</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/lab_worker_name:label">
+            <value>Please enter your name</value>
+          </text>
+          <text id="static_instance-ethnicity-56">
+            <value>Other ethnicity</value>
+          </text>
+          <text id="static_instance-ethnicity-57">
+            <value>Makua</value>
+          </text>
+          <text id="static_instance-ethnicity-54">
+            <value>Yae</value>
+          </text>
+          <text id="static_instance-ethnicity-39">
+            <value>Lavi</value>
+          </text>
+          <text id="static_instance-antimalarials-1">
+            <value>Antimalarial names</value>
+          </text>
+          <text id="static_instance-antimalarials-0">
+            <value>Antimalarial names</value>
+          </text>
+          <text id="static_instance-ethnicity-58">
+            <value>Sena</value>
+          </text>
+          <text id="static_instance-ethnicity-59">
+            <value>Shona</value>
+          </text>
+          <text id="static_instance-antimalarials-5">
+            <value>Antimalarial names</value>
+          </text>
+          <text id="static_instance-antimalarials-4">
+            <value>Antimalarial names</value>
+          </text>
+          <text id="static_instance-adult_child-0">
+            <value>Adult (&gt;18yrs)</value>
+          </text>
+          <text id="static_instance-antimalarials-6">
+            <value>Other Antimalarial</value>
+          </text>
+          <text id="static_instance-health_centre_name-0">
+            <value>Phonhong Vientiane Provincial Hospital</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/LABNO:label">
+            <value>NP10: Lab Numbers:</value>
+          </text>
+          <text id="static_instance-child_assent-1">
+            <value>Child is below 7 years</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/patient_id_check:label">
+            <value>Please go back and type the patient ID or scan the QR code on the sample or the storage form</value>
+          </text>
+          <text id="static_instance-health_centre_name-5">
+            <value>Malawi Health Centre 2</value>
+          </text>
+          <text id="static_instance-ethnicity-30">
+            <value>Halang Doan</value>
+          </text>
+          <text id="static_instance-form_type-0">
+            <value>INPATIENT ADULT (&gt;18yrs)</value>
+          </text>
+          <text id="static_instance-ethnicity-31">
+            <value>Hung or Tum</value>
+          </text>
+          <text id="static_instance-country-4">
+            <value>Zimbabwe</value>
+          </text>
+          <text id="static_instance-country-3">
+            <value>Myanmar</value>
+          </text>
+          <text id="static_instance-ethnicity-32">
+            <value>Khua</value>
+          </text>
+          <text id="static_instance-country-1">
+            <value>Malawi</value>
+          </text>
+          <text id="static_instance-country-0">
+            <value>Laos</value>
+          </text>
+          <text id="static_instance-anti_fungal_names-0">
+            <value>Anti-fungal names</value>
+          </text>
+          <text id="static_instance-ethnicity-33">
+            <value>Aheu</value>
+          </text>
+          <text id="static_instance-anti_fungal_names-1">
+            <value>Anti-fungal names</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-malaria_spp-2">
+            <value>ovale</value>
+          </text>
+          <text id="static_instance-malaria_spp-3">
+            <value>malariae</value>
+          </text>
+          <text id="static_instance-malaria_spp-0">
+            <value>falciparum</value>
+          </text>
+          <text id="static_instance-malaria_spp-1">
+            <value>vivax</value>
+          </text>
+          <text id="static_instance-anti_fungal_names-3">
+            <value>Anti-fungal names</value>
+          </text>
+          <text id="static_instance-ethnicity-49">
+            <value>Makong</value>
+          </text>
+          <text id="static_instance-ethnicity-48">
+            <value>Sapuan</value>
+          </text>
+          <text id="static_instance-ethnicity-45">
+            <value>Phong</value>
+          </text>
+          <text id="static_instance-ethnicity-44">
+            <value>Pakoh</value>
+          </text>
+          <text id="static_instance-ethnicity-47">
+            <value>Salang</value>
+          </text>
+          <text id="static_instance-ethnicity-37">
+            <value>Kri</value>
+          </text>
+          <text id="static_instance-ethnicity-41">
+            <value>Nguon</value>
+          </text>
+          <text id="static_instance-ethnicity-40">
+            <value>Mon</value>
+          </text>
+          <text id="static_instance-ethnicity-43">
+            <value>Ong</value>
+          </text>
+          <text id="static_instance-ethnicity-42">
+            <value>Nyaheun</value>
+          </text>
+          <text id="static_instance-health_worker_name-11">
+            <value>Myanmar Health worker 3</value>
+          </text>
+          <text id="static_instance-health_worker_name-10">
+            <value>Myanmar Health worker 2</value>
+          </text>
+          <text id="static_instance-health_worker_name-13">
+            <value>Clever Mazhanga</value>
+          </text>
+          <text id="static_instance-health_worker_name-12">
+            <value>Alleta Dauka</value>
+          </text>
+          <text id="static_instance-health_worker_name-15">
+            <value>Felina Mhangami</value>
+          </text>
+          <text id="static_instance-health_worker_name-14">
+            <value>Davidzo Chiuswa</value>
+          </text>
+          <text id="static_instance-health_worker_name-2">
+            <value>Laos Health worker 3</value>
+          </text>
+          <text id="static_instance-health_worker_name-16">
+            <value>Ioana Olaru</value>
+          </text>
+          <text id="static_instance-health_worker_name-19">
+            <value>Sabina Tekere</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/country/myanmar:label">
+            <value>Myanmar</value>
+          </text>
+          <text id="static_instance-healthcare_provider-7">
+            <value>Other (specify)</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/DATER:label">
+            <value>NP08: Date specimen was received:</value>
+          </text>
+          <text id="static_instance-symptoms-8">
+            <value>Other (List here other symptoms described by patient or carer)</value>
+          </text>
+          <text id="static_instance-symptoms-4">
+            <value>Not feeding</value>
+          </text>
+          <text id="static_instance-symptoms-5">
+            <value>Difficulty breathing or cough</value>
+          </text>
+          <text id="static_instance-symptoms-6">
+            <value>Lethargy</value>
+          </text>
+          <text id="static_instance-symptoms-7">
+            <value>Seizure</value>
+          </text>
+          <text id="static_instance-symptoms-0">
+            <value>Fever</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/note_welcome:label">
+            <value>Welcome to the lab data collection form for the <output value=" /FIEBRE_Lab_NP_swab_1a/data_type "/>
+Please make sure that all the appropriate materials and supplies are ready.</value>
+          </text>
+          <text id="static_instance-symptoms-2">
+            <value>Diarrhoea</value>
+          </text>
+          <text id="static_instance-symptoms-3">
+            <value>Vomitting</value>
+          </text>
+          <text id="static_instance-gender-1">
+            <value>Female</value>
+          </text>
+          <text id="static_instance-gender-0">
+            <value>Male</value>
+          </text>
+          <text id="static_instance-ear-1">
+            <value>Unilateral</value>
+          </text>
+          <text id="static_instance-gender-2">
+            <value>Another gender</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/country/laos:label">
+            <value>Laos</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/date_specimen_done:label">
+            <value>NP02: Date specimen collected:</value>
+          </text>
+          <text id="static_instance-muscle-2">
+            <value form="image">jr://images/rarm.jpg</value>
+            <value>Right arm</value>
+          </text>
+          <text id="static_instance-muscle-1">
+            <value form="image">jr://images/larm.jpg</value>
+            <value>Left arm</value>
+          </text>
+          <text id="static_instance-muscle-0">
+            <value>Diffuse</value>
+          </text>
+          <text id="static_instance-muscle-6">
+            <value form="image">jr://images/rleg.jpg</value>
+            <value>Right leg</value>
+          </text>
+          <text id="static_instance-muscle-5">
+            <value form="image">jr://images/lleg.jpg</value>
+            <value>Left leg</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/patient_id_type:label">
+            <value>Type the patient ID number</value>
+          </text>
+          <text id="static_instance-pos_neg-0">
+            <value>Positive</value>
+          </text>
+          <text id="static_instance-pos_neg-1">
+            <value>Negative</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_:label">
+            <value>NP SWAB for patient: <output value=" /FIEBRE_Lab_NP_swab_1a/patient_id_calculate "/></value></text>
+          <text id="static_instance-antibiotics-4">
+            <value>Antibiotic names</value>
+          </text>
+          <text id="static_instance-gcs_verbal_response-3">
+            <value>4 = disoriented conversation</value>
+          </text>
+          <text id="static_instance-gcs_verbal_response-2">
+            <value>3 = words, but not coherent</value>
+          </text>
+          <text id="static_instance-gcs_verbal_response-1">
+            <value>2 = no words, only sounds</value>
+          </text>
+          <text id="static_instance-gcs_verbal_response-0">
+            <value>1 = none</value>
+          </text>
+          <text id="static_instance-ethnicity-34">
+            <value>Maleng</value>
+          </text>
+          <text id="static_instance-ethnicity-35">
+            <value>Arem</value>
+          </text>
+          <text id="static_instance-ethnicity-36">
+            <value>Chut</value>
+          </text>
+          <text id="static_instance-gcs_verbal_response-4">
+            <value>5 = normal conversation</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/SCOL/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-ethnicity-53">
+            <value>Ta-oi</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/patient_id_scan_yes_no/no:label">
+            <value>No</value>
+          </text>
+          <text id="static_instance-ethnicity-51">
+            <value>Souei</value>
+          </text>
+          <text id="static_instance-antibiotics-5">
+            <value>Antibiotic names</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/visit:label">
+            <value>NP03: Type of Visit (Tick ONE that applies):</value>
+          </text>
+          <text id="static_instance-visit-0">
+            <value>Enrollment</value>
+          </text>
+          <text id="static_instance-visit-1">
+            <value>Day 28</value>
+          </text>
+          <text id="static_instance-muscle-4">
+            <value form="image">jr://images/bck.jpg</value>
+            <value>Back</value>
+          </text>
+          <text id="static_instance-ethnicity-75">
+            <value>Other ethnicity</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST_poition:label">
+            <value>Position:</value>
+          </text>
+          <text id="static_instance-ethnicity-46">
+            <value>Sadang</value>
+          </text>
+          <text id="static_instance-healthcare_provider-3">
+            <value>Local health centre</value>
+          </text>
+          <text id="static_instance-quadrant-0">
+            <value>Diffuse</value>
+          </text>
+          <text id="static_instance-country-2">
+            <value>Mozambique</value>
+          </text>
+          <text id="static_instance-antiviral_names-4">
+            <value>Anti-virals names</value>
+          </text>
+          <text id="static_instance-antiviral_names-5">
+            <value>Anti-virals names</value>
+          </text>
+          <text id="static_instance-antiviral_names-6">
+            <value>Other anti-virals names</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/time_specimen_done:label">
+            <value>NP04: Time specimen collected:</value>
+          </text>
+          <text id="static_instance-antiviral_names-0">
+            <value>Anti-virals names</value>
+          </text>
+          <text id="static_instance-antiviral_names-1">
+            <value>Anti-virals names</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/data_type:label">
+            <value>Lab form type:</value>
+          </text>
+          <text id="static_instance-antiviral_names-3">
+            <value>Anti-virals names</value>
+          </text>
+          <text id="static_instance-symptoms-1">
+            <value>Irritable or excessive crying</value>
+          </text>
+          <text id="static_instance-ethnicity-29">
+            <value>Bo</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/DATE2:label">
+            <value>NP09: Date specimens processed:</value>
+          </text>
+          <text id="static_instance-severity_type-3">
+            <value>Severe</value>
+          </text>
+          <text id="static_instance-severity_type-2">
+            <value>Moderate</value>
+          </text>
+          <text id="static_instance-severity_type-1">
+            <value>Mild</value>
+          </text>
+          <text id="static_instance-severity_type-0">
+            <value>None</value>
+          </text>
+          <text id="static_instance-ethnicity-23">
+            <value>Ngae</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/country/mozambique:label">
+            <value>Mozambique</value>
+          </text>
+          <text id="static_instance-ethnicity-21">
+            <value>Katu</value>
+          </text>
+          <text id="static_instance-ethnicity-20">
+            <value>Oi</value>
+          </text>
+          <text id="static_instance-ethnicity-27">
+            <value>Ir</value>
+          </text>
+          <text id="static_instance-ethnicity-26">
+            <value>Khlor</value>
+          </text>
+          <text id="static_instance-ethnicity-25">
+            <value>Jeh</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/lab_fill:label">
+            <value>Lab to fill the following questions:</value>
+          </text>
+          <text id="static_instance-o2_sats_type-0">
+            <value>Air</value>
+          </text>
+          <text id="static_instance-o2_sats_type-1">
+            <value>Oxygen</value>
+          </text>
+          <text id="static_instance-antimalarials-2">
+            <value>Antimalarial names</value>
+          </text>
+          <text id="static_instance-quadrant-2">
+            <value form="image">jr://images/LUQ.JPG</value>
+            <value>Left Upper quadrant</value>
+          </text>
+          <text id="static_instance-health_centre_name-15">
+            <value>Myanmar Health Centre 2</value>
+          </text>
+          <text id="static_instance-health_worker_name-33">
+            <value>Patrick Hussein</value>
+          </text>
+          <text id="static_instance-health_worker_name-32">
+            <value>Nick Feasey</value>
+          </text>
+          <text id="static_instance-health_worker_name-31">
+            <value>Maggie Thole</value>
+          </text>
+          <text id="static_instance-health_worker_name-30">
+            <value>Mabvuto Chimenya</value>
+          </text>
+          <text id="static_instance-environment-2">
+            <value>Lived or worked in close contact with goats</value>
+          </text>
+          <text id="static_instance-environment-3">
+            <value>Lived or worked in close contact with sick chickens</value>
+          </text>
+          <text id="static_instance-environment-0">
+            <value>Waded, swum or bathed in pond water, lake water, or stream water</value>
+          </text>
+          <text id="static_instance-environment-1">
+            <value>Lived or worked in close contact with cattle</value>
+          </text>
+          <text id="static_instance-anti_fungal_names-4">
+            <value>Anti-fungal names</value>
+          </text>
+          <text id="static_instance-anti_fungal_names-5">
+            <value>Anti-fungal names</value>
+          </text>
+          <text id="static_instance-environment-4">
+            <value>Worked in rice fields</value>
+          </text>
+          <text id="static_instance-environment-5">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-spleen-0">
+            <value>Liver</value>
+          </text>
+          <text id="static_instance-adult_child-1">
+            <value>Child (0-17yrs)</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/NUMSAMP:label">
+            <value>NP11: Number of NP swabs received:</value>
+          </text>
+          <text id="static_instance-healthcare_provider-6">
+            <value>Traditional healer</value>
+          </text>
+          <text id="static_instance-antibiotics-0">
+            <value>Antibiotic names</value>
+          </text>
+          <text id="static_instance-healthcare_provider-4">
+            <value>District hospital</value>
+          </text>
+          <text id="static_instance-health_worker_name-17">
+            <value>Liberty Maheya</value>
+          </text>
+          <text id="static_instance-antimalarials-3">
+            <value>Antimalarial names</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST_box:label">
+            <value>Box No.</value>
+          </text>
+          <text id="static_instance-form_type-2">
+            <value>OUTPATIENT ADULT (&gt;18yrs)</value>
+          </text>
+          <text id="static_instance-heat_for_cooking-4">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-antibiotics-2">
+            <value>Antibiotic names</value>
+          </text>
+          <text id="static_instance-ethnicity-16">
+            <value>Vietnamese</value>
+          </text>
+          <text id="static_instance-ethnicity-17">
+            <value>Bru</value>
+          </text>
+          <text id="static_instance-ethnicity-14">
+            <value>Patient refused to disclose</value>
+          </text>
+          <text id="static_instance-ethnicity-15">
+            <value>Katang</value>
+          </text>
+          <text id="static_instance-ethnicity-12">
+            <value>Ngonde</value>
+          </text>
+          <text id="static_instance-ethnicity-13">
+            <value>Other ethnicity</value>
+          </text>
+          <text id="static_instance-ethnicity-10">
+            <value>Sena</value>
+          </text>
+          <text id="static_instance-ethnicity-11">
+            <value>Tonga</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/country/malawi:label">
+            <value>Malawi</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/visit/day_28:label">
+            <value>Day 28</value>
+          </text>
+          <text id="static_instance-ethnicity-18">
+            <value>Kuy</value>
+          </text>
+          <text id="static_instance-ethnicity-19">
+            <value>Laven</value>
+          </text>
+          <text id="static_instance-health_worker_name-28">
+            <value>James Chinseu</value>
+          </text>
+          <text id="static_instance-health_worker_name-29">
+            <value>Kestings Gwedemula</value>
+          </text>
+          <text id="static_instance-inpatient_outpatient-0">
+            <value>Inpatient</value>
+          </text>
+          <text id="static_instance-inpatient_outpatient-1">
+            <value>Outpatient</value>
+          </text>
+          <text id="static_instance-ethnicity-62">
+            <value>Yao</value>
+          </text>
+          <text id="static_instance-health_worker_name-21">
+            <value>Tsitsi Bandason</value>
+          </text>
+          <text id="static_instance-health_worker_name-22">
+            <value>Barbara Njanwaha</value>
+          </text>
+          <text id="static_instance-health_worker_name-23">
+            <value>Brigitte Denis</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/np_swab_complete:label">
+            <value>Thank you for entering the NP swab data. Please finalise and send the form to server.</value>
+          </text>
+          <text id="static_instance-ethnicity-65">
+            <value>Chopi</value>
+          </text>
+          <text id="static_instance-health_worker_name-26">
+            <value>Frank Mbalume</value>
+          </text>
+          <text id="static_instance-health_worker_name-27">
+            <value>Guta Epulo</value>
+          </text>
+          <text id="static_instance-gcs_motor_response-5">
+            <value>6 = normal</value>
+          </text>
+          <text id="static_instance-gcs_motor_response-4">
+            <value>5 = localized to pain</value>
+          </text>
+          <text id="static_instance-gcs_motor_response-1">
+            <value>2 = decerebrate (an abnormal posture that can include rigidity, arms and legs held straight out, toes pointed downward, head and neck arched backwards)</value>
+          </text>
+          <text id="static_instance-gcs_motor_response-0">
+            <value>1 = none</value>
+          </text>
+          <text id="static_instance-gcs_motor_response-3">
+            <value>4 = withdraws to pain</value>
+          </text>
+          <text id="static_instance-gcs_motor_response-2">
+            <value>3 = decorticate posture (an abnormal posture that can include rigidity, clenched fists, legs held straight out, and arms bent inward toward the body with the wrists and fingers bend and held on the chest)</value>
+          </text>
+          <text id="static_instance-bcs_motor_response-2">
+            <value>2 = Localizes painful stimulus</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/no_pid:label">
+            <value>Please go back and either scan or type a patient ID</value>
+          </text>
+          <text id="static_instance-bcs_motor_response-0">
+            <value>0 = No response or inappropriate response</value>
+          </text>
+          <text id="static_instance-bcs_motor_response-1">
+            <value>1 = Withdraws limb from painful stimulus</value>
+          </text>
+          <text id="static_instance-language-1">
+            <value>Shona</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/patient_id:label">
+            <value>Use the tablet's camera to scan the patient's QR code</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/SCOL:label">
+            <value>NP05: NP swab collected:</value>
+          </text>
+          <text id="static_instance-dehydration_type-0">
+            <value>None</value>
+          </text>
+          <text id="static_instance-dehydration_type-1">
+            <value>Mild</value>
+          </text>
+          <text id="static_instance-dehydration_type-2">
+            <value>Moderate</value>
+          </text>
+          <text id="static_instance-dehydration_type-3">
+            <value>Severe</value>
+          </text>
+          <text id="static_instance-spleen-1">
+            <value>Spleen</value>
+          </text>
+          <text id="static_instance-bcs_verbal_response-2">
+            <value>2 = Cries appropriately with pain, or, if verbal, speaks</value>
+          </text>
+          <text id="static_instance-bcs_verbal_response-0">
+            <value>0 = No vocal response to pain</value>
+          </text>
+          <text id="static_instance-bcs_verbal_response-1">
+            <value>1 = Moan or abnormal cry with pain</value>
+          </text>
+          <text id="static_instance-antibiotics-6">
+            <value>Other Antibiotic</value>
+          </text>
+          <text id="static_instance-ear-0">
+            <value>None</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/SCOL/no:label">
+            <value>No</value>
+          </text>
+          <text id="static_instance-ear-2">
+            <value>Bilateral</value>
+          </text>
+          <text id="static_instance-healthcare_provider-5">
+            <value>Community health worker</value>
+          </text>
+          <text id="static_instance-healthcare_provider-0">
+            <value>NA</value>
+          </text>
+          <text id="static_instance-heat_for_cooking-3">
+            <value>Electricity</value>
+          </text>
+          <text id="static_instance-heat_for_cooking-2">
+            <value>Gas</value>
+          </text>
+          <text id="static_instance-heat_for_cooking-1">
+            <value>Charcoal</value>
+          </text>
+          <text id="static_instance-heat_for_cooking-0">
+            <value>Wood</value>
+          </text>
+          <text id="static_instance-bcs_eye_open-1">
+            <value>1 = Watches or follows</value>
+          </text>
+          <text id="static_instance-quadrant-4">
+            <value form="image">jr://images/LLQ.JPG</value>
+            <value>Left Lower quadrant</value>
+          </text>
+          <text id="static_instance-yes_no_not_examined-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-antibiotics-1">
+            <value>Antibiotic names</value>
+          </text>
+          <text id="static_instance-quadrant-1">
+            <value form="image">jr://images/RUQ.JPG</value>
+            <value>Right Upper quadrant</value>
+          </text>
+          <text id="static_instance-healthcare_provider-2">
+            <value>Private clinic</value>
+          </text>
+          <text id="static_instance-quadrant-3">
+            <value form="image">jr://images/RLQ.JPG</value>
+            <value>Right Lower quadrant</value>
+          </text>
+          <text id="static_instance-yes_no_dont_know-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no_dont_know-0">
+            <value>Yes</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/country/zimbabwe:label">
+            <value>Zimbabwe</value>
+          </text>
+          <text id="static_instance-yes_no_dont_know-2">
+            <value>Don't know</value>
+          </text>
+          <text id="static_instance-drug_route-2">
+            <value>PO</value>
+          </text>
+          <text id="static_instance-antiviral_names-2">
+            <value>Anti-virals names</value>
+          </text>
+          <text id="static_instance-drug_route-0">
+            <value>IV</value>
+          </text>
+          <text id="static_instance-drug_route-1">
+            <value>IM</value>
+          </text>
+          <text id="static_instance-yes_no_enroll-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no_enroll-0">
+            <value>Yes</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/patient_id_scan_yes_no:label">
+            <value>*(Did the QR code scan properly?)*</value>
+          </text>
+          <text id="static_instance-ethnicity-74">
+            <value>Shan</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/patient_id_scan_yes_no/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-ethnicity-76">
+            <value>Patient refused to disclose</value>
+          </text>
+          <text id="static_instance-form_type-1">
+            <value>INPATIENT CHILD (0-17yrs)</value>
+          </text>
+          <text id="static_instance-ethnicity-70">
+            <value>Kayin</value>
+          </text>
+          <text id="static_instance-ethnicity-71">
+            <value>Kayar</value>
+          </text>
+          <text id="static_instance-ethnicity-72">
+            <value>Mon</value>
+          </text>
+          <text id="static_instance-ethnicity-73">
+            <value>Rakhine</value>
+          </text>
+          <text id="static_instance-mrdt_result-2">
+            <value form="image">jr://images/mal_pos_pf.jpg</value>
+            <value>Malaria positive, Control line and pf line only shown: falciparum infection</value>
+          </text>
+          <text id="static_instance-mrdt_result-3">
+            <value form="image">jr://images/mal_neg.jpg</value>
+            <value>Malaria negative, Control line only shown</value>
+          </text>
+          <text id="static_instance-mrdt_result-0">
+            <value form="image">jr://images/mal_pos_pan.jpg</value>
+            <value>Malaria positive, Control line and Pan line shown: P. vivax, Po, Pm, non-falciparum Infection</value>
+          </text>
+          <text id="static_instance-mrdt_result-1">
+            <value form="image">jr://images/mal_pos_pan_pf.jpg</value>
+            <value>Malaria positive, Control line and Pan line and pf line shown: falciparum infection or mixed infection</value>
+          </text>
+          <text id="static_instance-mrdt_result-4">
+            <value form="image">jr://images/test_invalid.jpg</value>
+            <value>Invalid test result, control line not shown</value>
+          </text>
+          <text id="static_instance-mrdt_result-5">
+            <value form="image">jr://images/test_invalid_test_line.jpg</value>
+            <value>Invalid test result, control line not shown, but one or more test lines are present</value>
+          </text>
+          <text id="static_instance-health_worker_name-20">
+            <value>Sham Lal</value>
+          </text>
+          <text id="static_instance-antibiotics-3">
+            <value>Antibiotic names</value>
+          </text>
+          <text id="static_instance-ethnicity-28">
+            <value>Alak</value>
+          </text>
+          <text id="static_instance-yes_no_not_known-2">
+            <value>Not Known</value>
+          </text>
+          <text id="static_instance-yes_no_not_known-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no_not_known-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-health_centre_name-20">
+            <value>BRTI Lab</value>
+          </text>
+          <text id="static_instance-anti_fungal_names-2">
+            <value>Anti-fungal names</value>
+          </text>
+          <text id="static_instance-form_type-3">
+            <value>OUTPATIENT CHILD (0-17yrs)</value>
+          </text>
+          <text id="static_instance-ethnicity-4">
+            <value>Chewa</value>
+          </text>
+          <text id="static_instance-ethnicity-5">
+            <value>Lomwe</value>
+          </text>
+          <text id="static_instance-ethnicity-6">
+            <value>Yao</value>
+          </text>
+          <text id="static_instance-ethnicity-7">
+            <value>Ngoni</value>
+          </text>
+          <text id="static_instance-ethnicity-0">
+            <value>Shona</value>
+          </text>
+          <text id="static_instance-ethnicity-1">
+            <value>Ndebele</value>
+          </text>
+          <text id="static_instance-ethnicity-2">
+            <value>Other ethnicity</value>
+          </text>
+          <text id="static_instance-ethnicity-3">
+            <value>Patient refused to disclose</value>
+          </text>
+          <text id="static_instance-health_worker_name-24">
+            <value>Ed Green</value>
+          </text>
+          <text id="static_instance-child_assent-0">
+            <value>Child is 7 years or above</value>
+          </text>
+          <text id="static_instance-ethnicity-8">
+            <value>Tumbuka</value>
+          </text>
+          <text id="static_instance-ethnicity-9">
+            <value>Nyanja</value>
+          </text>
+          <text id="static_instance-health_worker_name-25">
+            <value>Fletcher Nangupeta</value>
+          </text>
+          <text id="static_instance-health_centre_name-12">
+            <value>Taninga</value>
+          </text>
+          <text id="static_instance-health_centre_name-13">
+            <value>Other Mozambique Health Centre</value>
+          </text>
+          <text id="static_instance-health_centre_name-10">
+            <value>Palmeiras</value>
+          </text>
+          <text id="static_instance-health_centre_name-11">
+            <value>Ilha Josina Machel</value>
+          </text>
+          <text id="static_instance-health_centre_name-16">
+            <value>Other Myanmar Health Centre</value>
+          </text>
+          <text id="static_instance-health_centre_name-17">
+            <value>Harare Central Hospital</value>
+          </text>
+          <text id="static_instance-health_centre_name-14">
+            <value>Thanlyin District Hospital</value>
+          </text>
+          <text id="static_instance-ethnicity-22">
+            <value>Lave</value>
+          </text>
+          <text id="static_instance-health_centre_name-18">
+            <value>Budiriro Poly Clinic</value>
+          </text>
+          <text id="static_instance-health_centre_name-19">
+            <value>Chitungwiza General Hospital</value>
+          </text>
+          <text id="static_instance-gcs_eye_open-2">
+            <value>3 = to voice</value>
+          </text>
+          <text id="static_instance-gcs_eye_open-3">
+            <value>4 = spontaneous</value>
+          </text>
+          <text id="static_instance-gcs_eye_open-0">
+            <value>1 = none</value>
+          </text>
+          <text id="static_instance-gcs_eye_open-1">
+            <value>2 = to pain</value>
+          </text>
+          <text id="static_instance-ethnicity-67">
+            <value>Other ethnicity</value>
+          </text>
+          <text id="static_instance-ethnicity-66">
+            <value>Nguni</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/_np_/COMM:label">
+            <value>NP07: Enter any comments about the NP Swab:</value>
+          </text>
+          <text id="static_instance-ethnicity-64">
+            <value>Tonga</value>
+          </text>
+          <text id="static_instance-ethnicity-63">
+            <value>Swahili</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/country:label">
+            <value>Please select the country that the lab is located in.</value>
+          </text>
+          <text id="static_instance-ethnicity-61">
+            <value>Makonde</value>
+          </text>
+          <text id="static_instance-ethnicity-60">
+            <value>Shangaan</value>
+          </text>
+          <text id="static_instance-yes_no_not_examined-0">
+            <value>Yes</value>
+          </text>
+          <text id="/FIEBRE_Lab_NP_swab_1a/lab_name:label">
+            <value>Select the lab name</value>
+          </text>
+          <text id="static_instance-ethnicity-69">
+            <value>Shangaan</value>
+          </text>
+          <text id="static_instance-ethnicity-68">
+            <value>Patient refused to disclose</value>
+          </text>
+          <text id="static_instance-health_worker_name-9">
+            <value>Myanmar Health worker 1</value>
+          </text>
+          <text id="static_instance-health_worker_name-8">
+            <value>Mozambique Health worker 3</value>
+          </text>
+          <text id="static_instance-bcs_eye_open-0">
+            <value>0 = Fails to watch or follow</value>
+          </text>
+          <text id="static_instance-yes_no_not_examined-2">
+            <value>Not examined</value>
+          </text>
+          <text id="static_instance-health_worker_name-1">
+            <value>Laos Health worker 2</value>
+          </text>
+          <text id="static_instance-health_worker_name-0">
+            <value>Laos Health worker 1</value>
+          </text>
+          <text id="static_instance-health_worker_name-3">
+            <value>Malawi Health worker 1</value>
+          </text>
+          <text id="static_instance-ethnicity-24">
+            <value>Khmer</value>
+          </text>
+          <text id="static_instance-health_worker_name-5">
+            <value>Malawi Health worker 3</value>
+          </text>
+          <text id="static_instance-health_worker_name-4">
+            <value>Malawi Health worker 2</value>
+          </text>
+          <text id="static_instance-health_worker_name-7">
+            <value>Mozambique Health worker 2</value>
+          </text>
+          <text id="static_instance-health_worker_name-6">
+            <value>Mozambique Health worker 1</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <FIEBRE_Lab_NP_swab_1a id="zwnpswb1a" version="2">
+          <today/>
+          <start/>
+          <end/>
+          <deviceid/>
+          <subscriberid/>
+          <simserial/>
+          <phonenumber/>
+          <data_type>NP Swab Storage form</data_type>
+          <note_welcome/>
+          <country/>
+          <lab_worker_name/>
+          <lab_name/>
+          <patient_id/>
+          <patient_id_scan_yes_no/>
+          <patient_id_type/>
+          <patient_id_check/>
+          <patient_id_calculate/>
+          <_np_>
+            <date_specimen_done>.= today()</date_specimen_done>
+            <visit/>
+            <time_specimen_done/>
+            <SCOL/>
+            <COMM/>
+            <_np1_>
+              <lab_fill/>
+              <DATER/>
+              <DATE2/>
+              <LABNO/>
+              <NUMSAMP/>
+            </_np1_>
+            <_np2_>
+              <NPASTST/>
+              <NPASTST_box/>
+              <NPASTST_poition/>
+            </_np2_>
+          </_np_>
+          <np_swab_complete/>
+          <no_pid/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </FIEBRE_Lab_NP_swab_1a>
+      </instance>
+      <instance id="pos_neg">
+        <root>
+          <item>
+            <itextId>static_instance-pos_neg-0</itextId>
+            <name>positive</name>
+          </item>
+          <item>
+            <itextId>static_instance-pos_neg-1</itextId>
+            <name>negative</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="gcs_verbal_response">
+        <root>
+          <item>
+            <itextId>static_instance-gcs_verbal_response-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_verbal_response-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_verbal_response-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_verbal_response-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_verbal_response-4</itextId>
+            <name>5</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="o2_sats_type">
+        <root>
+          <item>
+            <itextId>static_instance-o2_sats_type-0</itextId>
+            <name>air</name>
+          </item>
+          <item>
+            <itextId>static_instance-o2_sats_type-1</itextId>
+            <name>oxygen</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="gcs_motor_response">
+        <root>
+          <item>
+            <itextId>static_instance-gcs_motor_response-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_motor_response-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_motor_response-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_motor_response-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_motor_response-4</itextId>
+            <name>5</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_motor_response-5</itextId>
+            <name>6</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="dehydration_type">
+        <root>
+          <item>
+            <itextId>static_instance-dehydration_type-0</itextId>
+            <name>dehydration_type_none</name>
+          </item>
+          <item>
+            <itextId>static_instance-dehydration_type-1</itextId>
+            <name>dehydration_type_mild</name>
+          </item>
+          <item>
+            <itextId>static_instance-dehydration_type-2</itextId>
+            <name>dehydration_type_moderate</name>
+          </item>
+          <item>
+            <itextId>static_instance-dehydration_type-3</itextId>
+            <name>dehydration_type_severe</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="severity_type">
+        <root>
+          <item>
+            <itextId>static_instance-severity_type-0</itextId>
+            <name>none</name>
+          </item>
+          <item>
+            <itextId>static_instance-severity_type-1</itextId>
+            <name>mild</name>
+          </item>
+          <item>
+            <itextId>static_instance-severity_type-2</itextId>
+            <name>moderate</name>
+          </item>
+          <item>
+            <itextId>static_instance-severity_type-3</itextId>
+            <name>severe</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="mrdt_result">
+        <root>
+          <item>
+            <itextId>static_instance-mrdt_result-0</itextId>
+            <name>malaria_positive_pan</name>
+          </item>
+          <item>
+            <itextId>static_instance-mrdt_result-1</itextId>
+            <name>malaria_positive_pf_or_pan</name>
+          </item>
+          <item>
+            <itextId>static_instance-mrdt_result-2</itextId>
+            <name>malaria_positive_pf_only</name>
+          </item>
+          <item>
+            <itextId>static_instance-mrdt_result-3</itextId>
+            <name>malaria_negative</name>
+          </item>
+          <item>
+            <itextId>static_instance-mrdt_result-4</itextId>
+            <name>invalid_no_control_line</name>
+          </item>
+          <item>
+            <itextId>static_instance-mrdt_result-5</itextId>
+            <name>invalid_no_c_line_test_line</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="bcs_motor_response">
+        <root>
+          <item>
+            <itextId>static_instance-bcs_motor_response-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-bcs_motor_response-1</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-bcs_motor_response-2</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ethnicity">
+        <root>
+          <item>
+            <itextId>static_instance-ethnicity-0</itextId>
+            <country>zimbabwe</country>
+            <name>shona</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-1</itextId>
+            <country>zimbabwe</country>
+            <name>ndebele</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-2</itextId>
+            <country>zimbabwe</country>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-3</itextId>
+            <country>zimbabwe</country>
+            <name>patient_refused_to_disclose</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-4</itextId>
+            <country>malawi</country>
+            <name>chewa</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-5</itextId>
+            <country>malawi</country>
+            <name>lomwe</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-6</itextId>
+            <country>malawi</country>
+            <name>yao</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-7</itextId>
+            <country>malawi</country>
+            <name>ngoni</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-8</itextId>
+            <country>malawi</country>
+            <name>tumbuka</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-9</itextId>
+            <country>malawi</country>
+            <name>nyanja</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-10</itextId>
+            <country>malawi</country>
+            <name>sena</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-11</itextId>
+            <country>malawi</country>
+            <name>tonga</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-12</itextId>
+            <country>malawi</country>
+            <name>ngonde</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-13</itextId>
+            <country>malawi</country>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-14</itextId>
+            <country>malawi</country>
+            <name>patient_refused_to_disclose</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-15</itextId>
+            <country>laos</country>
+            <name>katang</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-16</itextId>
+            <country>laos</country>
+            <name>vietnamese</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-17</itextId>
+            <country>laos</country>
+            <name>bru</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-18</itextId>
+            <country>laos</country>
+            <name>kuy</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-19</itextId>
+            <country>laos</country>
+            <name>laven</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-20</itextId>
+            <country>laos</country>
+            <name>oi</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-21</itextId>
+            <country>laos</country>
+            <name>katu</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-22</itextId>
+            <country>laos</country>
+            <name>lave</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-23</itextId>
+            <country>laos</country>
+            <name>ngae</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-24</itextId>
+            <country>laos</country>
+            <name>khmer</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-25</itextId>
+            <country>laos</country>
+            <name>jeh</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-26</itextId>
+            <country>laos</country>
+            <name>khlor</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-27</itextId>
+            <country>laos</country>
+            <name>ir</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-28</itextId>
+            <country>laos</country>
+            <name>alak</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-29</itextId>
+            <country>laos</country>
+            <name>bo</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-30</itextId>
+            <country>laos</country>
+            <name>halang_doan</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-31</itextId>
+            <country>laos</country>
+            <name>hung_or_tum</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-32</itextId>
+            <country>laos</country>
+            <name>khua</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-33</itextId>
+            <country>laos</country>
+            <name>aheu</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-34</itextId>
+            <country>laos</country>
+            <name>maleng</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-35</itextId>
+            <country>laos</country>
+            <name>arem</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-36</itextId>
+            <country>laos</country>
+            <name>chut</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-37</itextId>
+            <country>laos</country>
+            <name>kri</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-38</itextId>
+            <country>laos</country>
+            <name>lavae_aka_brao</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-39</itextId>
+            <country>laos</country>
+            <name>lavi</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-40</itextId>
+            <country>laos</country>
+            <name>mon</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-41</itextId>
+            <country>laos</country>
+            <name>nguon</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-42</itextId>
+            <country>laos</country>
+            <name>nyaheun</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-43</itextId>
+            <country>laos</country>
+            <name>ong</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-44</itextId>
+            <country>laos</country>
+            <name>pakoh</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-45</itextId>
+            <country>laos</country>
+            <name>phong</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-46</itextId>
+            <country>laos</country>
+            <name>sadang</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-47</itextId>
+            <country>laos</country>
+            <name>salang</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-48</itextId>
+            <country>laos</country>
+            <name>sapuan</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-49</itextId>
+            <country>laos</country>
+            <name>makong</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-50</itextId>
+            <country>laos</country>
+            <name>sou</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-51</itextId>
+            <country>laos</country>
+            <name>souei</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-52</itextId>
+            <country>laos</country>
+            <name>taliang</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-53</itextId>
+            <country>laos</country>
+            <name>ta_oi</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-54</itextId>
+            <country>laos</country>
+            <name>yae</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-55</itextId>
+            <country>laos</country>
+            <name>patient_refused_to_disclose</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-56</itextId>
+            <country>laos</country>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-57</itextId>
+            <country>mozambique</country>
+            <name>makua</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-58</itextId>
+            <country>mozambique</country>
+            <name>sena</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-59</itextId>
+            <country>mozambique</country>
+            <name>shona</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-60</itextId>
+            <country>mozambique</country>
+            <name>shangaan</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-61</itextId>
+            <country>mozambique</country>
+            <name>makonde</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-62</itextId>
+            <country>mozambique</country>
+            <name>yao</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-63</itextId>
+            <country>mozambique</country>
+            <name>swahili</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-64</itextId>
+            <country>mozambique</country>
+            <name>tonga</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-65</itextId>
+            <country>mozambique</country>
+            <name>chopi</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-66</itextId>
+            <country>mozambique</country>
+            <name>nguni</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-67</itextId>
+            <country>mozambique</country>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-68</itextId>
+            <country>mozambique</country>
+            <name>patient_refused_to_disclose</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-69</itextId>
+            <country>myanmar</country>
+            <name>shangaan</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-70</itextId>
+            <country>myanmar</country>
+            <name>kayin</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-71</itextId>
+            <country>myanmar</country>
+            <name>kayar</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-72</itextId>
+            <country>myanmar</country>
+            <name>mon</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-73</itextId>
+            <country>myanmar</country>
+            <name>rakhine</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-74</itextId>
+            <country>myanmar</country>
+            <name>shan</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-75</itextId>
+            <country>myanmar</country>
+            <name>other</name>
+          </item>
+          <item>
+            <itextId>static_instance-ethnicity-76</itextId>
+            <country>myanmar</country>
+            <name>patient_refused_to_disclose</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="environment">
+        <root>
+          <item>
+            <itextId>static_instance-environment-0</itextId>
+            <name>waded_swum_bathed_pond_water</name>
+          </item>
+          <item>
+            <itextId>static_instance-environment-1</itextId>
+            <name>lived_or_worked_in_close_contact_with_cattle</name>
+          </item>
+          <item>
+            <itextId>static_instance-environment-2</itextId>
+            <name>lived_or_worked_in_close_contact_with_goats</name>
+          </item>
+          <item>
+            <itextId>static_instance-environment-3</itextId>
+            <name>lived_or_worked_in_close_contact_with_sick_chickens</name>
+          </item>
+          <item>
+            <itextId>static_instance-environment-4</itextId>
+            <name>worked_in_rice_fields</name>
+          </item>
+          <item>
+            <itextId>static_instance-environment-5</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="antimalarials">
+        <root>
+          <item>
+            <itextId>static_instance-antimalarials-0</itextId>
+            <name>antimalarial_names1</name>
+          </item>
+          <item>
+            <itextId>static_instance-antimalarials-1</itextId>
+            <name>antimalarial_names2</name>
+          </item>
+          <item>
+            <itextId>static_instance-antimalarials-2</itextId>
+            <name>antimalarial_names3</name>
+          </item>
+          <item>
+            <itextId>static_instance-antimalarials-3</itextId>
+            <name>antimalarial_names4</name>
+          </item>
+          <item>
+            <itextId>static_instance-antimalarials-4</itextId>
+            <name>antimalarial_names5</name>
+          </item>
+          <item>
+            <itextId>static_instance-antimalarials-5</itextId>
+            <name>antimalarial_names6</name>
+          </item>
+          <item>
+            <itextId>static_instance-antimalarials-6</itextId>
+            <name>antimalarial_names_other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="drug_route">
+        <root>
+          <item>
+            <itextId>static_instance-drug_route-0</itextId>
+            <name>iv</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_route-1</itextId>
+            <name>im</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_route-2</itextId>
+            <name>po</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="visit">
+        <root>
+          <item>
+            <itextId>static_instance-visit-0</itextId>
+            <name>enrollment</name>
+          </item>
+          <item>
+            <itextId>static_instance-visit-1</itextId>
+            <name>day_28</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no_enroll">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no_enroll-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_enroll-1</itextId>
+            <name>0</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="symptoms">
+        <root>
+          <item>
+            <itextId>static_instance-symptoms-0</itextId>
+            <name>fever</name>
+          </item>
+          <item>
+            <itextId>static_instance-symptoms-1</itextId>
+            <name>irritable_or_excessive_crying</name>
+          </item>
+          <item>
+            <itextId>static_instance-symptoms-2</itextId>
+            <name>diarrhoea</name>
+          </item>
+          <item>
+            <itextId>static_instance-symptoms-3</itextId>
+            <name>vomitting</name>
+          </item>
+          <item>
+            <itextId>static_instance-symptoms-4</itextId>
+            <name>not_feeding</name>
+          </item>
+          <item>
+            <itextId>static_instance-symptoms-5</itextId>
+            <name>difficulty_breathing_or_cough</name>
+          </item>
+          <item>
+            <itextId>static_instance-symptoms-6</itextId>
+            <name>lethargy</name>
+          </item>
+          <item>
+            <itextId>static_instance-symptoms-7</itextId>
+            <name>seizure</name>
+          </item>
+          <item>
+            <itextId>static_instance-symptoms-8</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="malaria_spp">
+        <root>
+          <item>
+            <itextId>static_instance-malaria_spp-0</itextId>
+            <name>falciparum</name>
+          </item>
+          <item>
+            <itextId>static_instance-malaria_spp-1</itextId>
+            <name>vivax</name>
+          </item>
+          <item>
+            <itextId>static_instance-malaria_spp-2</itextId>
+            <name>ovale</name>
+          </item>
+          <item>
+            <itextId>static_instance-malaria_spp-3</itextId>
+            <name>malariae</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="antiviral_names">
+        <root>
+          <item>
+            <itextId>static_instance-antiviral_names-0</itextId>
+            <name>antiviral_names1</name>
+          </item>
+          <item>
+            <itextId>static_instance-antiviral_names-1</itextId>
+            <name>antiviral_names2</name>
+          </item>
+          <item>
+            <itextId>static_instance-antiviral_names-2</itextId>
+            <name>antiviral_names3</name>
+          </item>
+          <item>
+            <itextId>static_instance-antiviral_names-3</itextId>
+            <name>antiviral_names4</name>
+          </item>
+          <item>
+            <itextId>static_instance-antiviral_names-4</itextId>
+            <name>antiviral_names5</name>
+          </item>
+          <item>
+            <itextId>static_instance-antiviral_names-5</itextId>
+            <name>antiviral_names6</name>
+          </item>
+          <item>
+            <itextId>static_instance-antiviral_names-6</itextId>
+            <name>antiviral_names_other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="health_worker_name">
+        <root>
+          <item>
+            <itextId>static_instance-health_worker_name-0</itextId>
+            <country>laos</country>
+            <name>laos_health_worker1</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-1</itextId>
+            <country>laos</country>
+            <name>laos_health_worker2</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-2</itextId>
+            <country>laos</country>
+            <name>laos_health_worker3</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-3</itextId>
+            <country>malawi</country>
+            <name>malawi_health_worker1</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-4</itextId>
+            <country>malawi</country>
+            <name>malawi_health_worker2</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-5</itextId>
+            <country>malawi</country>
+            <name>malawi_health_worker3</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-6</itextId>
+            <country>mozambique</country>
+            <name>mozambique_health_worker1</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-7</itextId>
+            <country>mozambique</country>
+            <name>mozambique_health_worker2</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-8</itextId>
+            <country>mozambique</country>
+            <name>mozambique_health_worker3</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-9</itextId>
+            <country>myanmar</country>
+            <name>myanmar_health_worker1</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-10</itextId>
+            <country>myanmar</country>
+            <name>myanmar_health_worker2</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-11</itextId>
+            <country>myanmar</country>
+            <name>myanmar_health_worker3</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-12</itextId>
+            <country>zimbabwe</country>
+            <name>alleta_dauka</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-13</itextId>
+            <country>zimbabwe</country>
+            <name>clever_mazhanga</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-14</itextId>
+            <country>zimbabwe</country>
+            <name>davidzo_chiuswa</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-15</itextId>
+            <country>zimbabwe</country>
+            <name>felina_mhangami</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-16</itextId>
+            <country>zimbabwe</country>
+            <name>ioana_olaru</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-17</itextId>
+            <country>zimbabwe</country>
+            <name>liberty_maheya</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-18</itextId>
+            <country>zimbabwe</country>
+            <name>molly_sibanda</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-19</itextId>
+            <country>zimbabwe</country>
+            <name>sabina_tekere</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-20</itextId>
+            <country>zimbabwe</country>
+            <name>sham_lal</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-21</itextId>
+            <country>zimbabwe</country>
+            <name>tsitsi_bandason</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-22</itextId>
+            <country>malawi</country>
+            <name>barbara_njanwaha</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-23</itextId>
+            <country>malawi</country>
+            <name>brigitte_denis</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-24</itextId>
+            <country>malawi</country>
+            <name>ed_green</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-25</itextId>
+            <country>malawi</country>
+            <name>fletcher_nangupeta</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-26</itextId>
+            <country>malawi</country>
+            <name>frank_mbalume</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-27</itextId>
+            <country>malawi</country>
+            <name>guta_epulo</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-28</itextId>
+            <country>malawi</country>
+            <name>james_chinseu</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-29</itextId>
+            <country>malawi</country>
+            <name>kestings_gwedemula</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-30</itextId>
+            <country>malawi</country>
+            <name>mabvuto_chimenya</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-31</itextId>
+            <country>malawi</country>
+            <name>maggie_thole</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-32</itextId>
+            <country>malawi</country>
+            <name>nick_feasey</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_worker_name-33</itextId>
+            <country>malawi</country>
+            <name>patrick_hussein</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="gcs_eye_open">
+        <root>
+          <item>
+            <itextId>static_instance-gcs_eye_open-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_eye_open-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_eye_open-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-gcs_eye_open-3</itextId>
+            <name>4</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no_not_known">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no_not_known-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_not_known-1</itextId>
+            <name>no</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_not_known-2</itextId>
+            <name>not_known</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="child_assent">
+        <root>
+          <item>
+            <itextId>static_instance-child_assent-0</itextId>
+            <name>child_7_and_above</name>
+          </item>
+          <item>
+            <itextId>static_instance-child_assent-1</itextId>
+            <name>child_below_7</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="bcs_verbal_response">
+        <root>
+          <item>
+            <itextId>static_instance-bcs_verbal_response-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-bcs_verbal_response-1</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-bcs_verbal_response-2</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="inpatient_outpatient">
+        <root>
+          <item>
+            <itextId>static_instance-inpatient_outpatient-0</itextId>
+            <name>inpatient</name>
+          </item>
+          <item>
+            <itextId>static_instance-inpatient_outpatient-1</itextId>
+            <name>outpatient</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="health_centre_name">
+        <root>
+          <item>
+            <itextId>static_instance-health_centre_name-0</itextId>
+            <country>laos</country>
+            <name>phonhong_vientiane_provincial_hospital</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-1</itextId>
+            <country>laos</country>
+            <name>laos_health_centre2</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-2</itextId>
+            <country>laos</country>
+            <name>laos_health_centre3</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-3</itextId>
+            <country>laos</country>
+            <name>laos_health_centre_other</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-4</itextId>
+            <country>malawi</country>
+            <name>chikwawa_district_hospital</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-5</itextId>
+            <country>malawi</country>
+            <name>malawi_health_centre2</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-6</itextId>
+            <country>malawi</country>
+            <name>malawi_health_centre3</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-7</itextId>
+            <country>malawi</country>
+            <name>malawi_health_centre_other</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-8</itextId>
+            <country>mozambique</country>
+            <name>manhica_district_hospital</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-9</itextId>
+            <country>mozambique</country>
+            <name>maragra_malavele</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-10</itextId>
+            <country>mozambique</country>
+            <name>palmeiras</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-11</itextId>
+            <country>mozambique</country>
+            <name>ilha_josina_machel</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-12</itextId>
+            <country>mozambique</country>
+            <name>taninga</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-13</itextId>
+            <country>mozambique</country>
+            <name>mozambique_health_centre_other</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-14</itextId>
+            <country>myanmar</country>
+            <name>thanlyin_district_hospital</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-15</itextId>
+            <country>myanmar</country>
+            <name>myanmar_health_centre2</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-16</itextId>
+            <country>myanmar</country>
+            <name>myanmar_health_centre_other</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-17</itextId>
+            <country>zimbabwe</country>
+            <name>harare_central_hospital</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-18</itextId>
+            <country>zimbabwe</country>
+            <name>budiriro_poly_clinic</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-19</itextId>
+            <country>zimbabwe</country>
+            <name>chitungwiza_general_hospital</name>
+          </item>
+          <item>
+            <itextId>static_instance-health_centre_name-20</itextId>
+            <country>zimbabwe</country>
+            <name>brti_lab</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="antibiotics">
+        <root>
+          <item>
+            <itextId>static_instance-antibiotics-0</itextId>
+            <name>antibiotic_names1</name>
+          </item>
+          <item>
+            <itextId>static_instance-antibiotics-1</itextId>
+            <name>antibiotic_names2</name>
+          </item>
+          <item>
+            <itextId>static_instance-antibiotics-2</itextId>
+            <name>antibiotic_names3</name>
+          </item>
+          <item>
+            <itextId>static_instance-antibiotics-3</itextId>
+            <name>antibiotic_names4</name>
+          </item>
+          <item>
+            <itextId>static_instance-antibiotics-4</itextId>
+            <name>antibiotic_names5</name>
+          </item>
+          <item>
+            <itextId>static_instance-antibiotics-5</itextId>
+            <name>antibiotic_names6</name>
+          </item>
+          <item>
+            <itextId>static_instance-antibiotics-6</itextId>
+            <name>antibiotic_name_other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="healthcare_provider">
+        <root>
+          <item>
+            <itextId>static_instance-healthcare_provider-0</itextId>
+            <name>na</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcare_provider-1</itextId>
+            <name>pharmacy_drugshop</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcare_provider-2</itextId>
+            <name>private_clinic</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcare_provider-3</itextId>
+            <name>local_health_centre</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcare_provider-4</itextId>
+            <name>district_hospital</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcare_provider-5</itextId>
+            <name>community_health_worker</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcare_provider-6</itextId>
+            <name>traditional_healer</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcare_provider-7</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="bcs_eye_open">
+        <root>
+          <item>
+            <itextId>static_instance-bcs_eye_open-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-bcs_eye_open-1</itextId>
+            <name>1</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="form_type">
+        <root>
+          <item>
+            <itextId>static_instance-form_type-0</itextId>
+            <name>adult_inpatient</name>
+          </item>
+          <item>
+            <itextId>static_instance-form_type-1</itextId>
+            <name>child_inpatient</name>
+          </item>
+          <item>
+            <itextId>static_instance-form_type-2</itextId>
+            <name>adult_outpatient</name>
+          </item>
+          <item>
+            <itextId>static_instance-form_type-3</itextId>
+            <name>child_outpatient</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="anti_fungal_names">
+        <root>
+          <item>
+            <itextId>static_instance-anti_fungal_names-0</itextId>
+            <name>anti_fungal_names1</name>
+          </item>
+          <item>
+            <itextId>static_instance-anti_fungal_names-1</itextId>
+            <name>anti_fungal_names2</name>
+          </item>
+          <item>
+            <itextId>static_instance-anti_fungal_names-2</itextId>
+            <name>anti_fungal_names3</name>
+          </item>
+          <item>
+            <itextId>static_instance-anti_fungal_names-3</itextId>
+            <name>anti_fungal_names4</name>
+          </item>
+          <item>
+            <itextId>static_instance-anti_fungal_names-4</itextId>
+            <name>anti_fungal_names5</name>
+          </item>
+          <item>
+            <itextId>static_instance-anti_fungal_names-5</itextId>
+            <name>anti_fungal_names6</name>
+          </item>
+          <item>
+            <itextId>static_instance-anti_fungal_names-6</itextId>
+            <name>anti_fungal_names_other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ear">
+        <root>
+          <item>
+            <itextId>static_instance-ear-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-ear-1</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-ear-2</itextId>
+            <name>0</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="language">
+        <root>
+          <item>
+            <itextId>static_instance-language-0</itextId>
+            <country>english</country>
+            <name>English</name>
+          </item>
+          <item>
+            <itextId>static_instance-language-1</itextId>
+            <country>shona</country>
+            <name>Shona</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="spleen">
+        <root>
+          <item>
+            <itextId>static_instance-spleen-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-spleen-1</itextId>
+            <name>0</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="heat_for_cooking">
+        <root>
+          <item>
+            <itextId>static_instance-heat_for_cooking-0</itextId>
+            <name>wood</name>
+          </item>
+          <item>
+            <itextId>static_instance-heat_for_cooking-1</itextId>
+            <name>charcoal</name>
+          </item>
+          <item>
+            <itextId>static_instance-heat_for_cooking-2</itextId>
+            <name>gas</name>
+          </item>
+          <item>
+            <itextId>static_instance-heat_for_cooking-3</itextId>
+            <name>electricity</name>
+          </item>
+          <item>
+            <itextId>static_instance-heat_for_cooking-4</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="country">
+        <root>
+          <item>
+            <itextId>static_instance-country-0</itextId>
+            <name>laos</name>
+          </item>
+          <item>
+            <itextId>static_instance-country-1</itextId>
+            <name>malawi</name>
+          </item>
+          <item>
+            <itextId>static_instance-country-2</itextId>
+            <name>mozambique</name>
+          </item>
+          <item>
+            <itextId>static_instance-country-3</itextId>
+            <name>myanmar</name>
+          </item>
+          <item>
+            <itextId>static_instance-country-4</itextId>
+            <name>zimbabwe</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="adult_child">
+        <root>
+          <item>
+            <itextId>static_instance-adult_child-0</itextId>
+            <name>adult</name>
+          </item>
+          <item>
+            <itextId>static_instance-adult_child-1</itextId>
+            <name>child</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="quadrant">
+        <root>
+          <item>
+            <itextId>static_instance-quadrant-0</itextId>
+            <name>diffuse</name>
+          </item>
+          <item>
+            <itextId>static_instance-quadrant-1</itextId>
+            <name>right_upper_quadrant</name>
+          </item>
+          <item>
+            <itextId>static_instance-quadrant-2</itextId>
+            <name>left_upper_quadrant</name>
+          </item>
+          <item>
+            <itextId>static_instance-quadrant-3</itextId>
+            <name>right_lower_quadrant</name>
+          </item>
+          <item>
+            <itextId>static_instance-quadrant-4</itextId>
+            <name>left_lower_quadrant</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no_dont_know">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no_dont_know-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_dont_know-1</itextId>
+            <name>no</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_dont_know-2</itextId>
+            <name>dontknow</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no_not_examined">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no_not_examined-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_not_examined-1</itextId>
+            <name>no</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_not_examined-2</itextId>
+            <name>not_examined</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="gender">
+        <root>
+          <item>
+            <itextId>static_instance-gender-0</itextId>
+            <name>male</name>
+          </item>
+          <item>
+            <itextId>static_instance-gender-1</itextId>
+            <name>female</name>
+          </item>
+          <item>
+            <itextId>static_instance-gender-2</itextId>
+            <name>another_gender</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="muscle">
+        <root>
+          <item>
+            <itextId>static_instance-muscle-0</itextId>
+            <name>diffuse</name>
+          </item>
+          <item>
+            <itextId>static_instance-muscle-1</itextId>
+            <name>left_arm</name>
+          </item>
+          <item>
+            <itextId>static_instance-muscle-2</itextId>
+            <name>right_arm</name>
+          </item>
+          <item>
+            <itextId>static_instance-muscle-3</itextId>
+            <name>torso</name>
+          </item>
+          <item>
+            <itextId>static_instance-muscle-4</itextId>
+            <name>back</name>
+          </item>
+          <item>
+            <itextId>static_instance-muscle-5</itextId>
+            <name>left_leg</name>
+          </item>
+          <item>
+            <itextId>static_instance-muscle-6</itextId>
+            <name>right_leg</name>
+          </item>
+        </root>
+      </instance>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/FIEBRE_Lab_NP_swab_1a/today" type="date"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/FIEBRE_Lab_NP_swab_1a/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/FIEBRE_Lab_NP_swab_1a/end" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/FIEBRE_Lab_NP_swab_1a/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/FIEBRE_Lab_NP_swab_1a/subscriberid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/FIEBRE_Lab_NP_swab_1a/simserial" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/FIEBRE_Lab_NP_swab_1a/phonenumber" type="string"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/data_type" readonly="true()" type="string"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/note_welcome" readonly="true()" type="string"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/country" required="true()" type="select1"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/lab_worker_name" required="true()" type="select1"/>
+      <bind jr:constraintMsg="true()" nodeset="/FIEBRE_Lab_NP_swab_1a/lab_name" required="true()" type="select1"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/patient_id" required="false()" type="barcode"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/patient_id_scan_yes_no" relevant=" /FIEBRE_Lab_NP_swab_1a/patient_id =''" required="true()" type="select1"/>
+      <bind constraint="regex(., &quot;^[A-Z]{2}[0-9]{5}$&quot;)" jr:constraintMsg="Type the patient ID number in the format XX12345" nodeset="/FIEBRE_Lab_NP_swab_1a/patient_id_type" relevant="(selected( /FIEBRE_Lab_NP_swab_1a/patient_id_scan_yes_no ,'no'))" type="string"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/patient_id_check" readonly="true()" relevant=" /FIEBRE_Lab_NP_swab_1a/patient_id ='' and  /FIEBRE_Lab_NP_swab_1a/patient_id_type =''" type="string"/>
+      <bind calculate="(if( /FIEBRE_Lab_NP_swab_1a/patient_id !=null,concat( /FIEBRE_Lab_NP_swab_1a/patient_id ),concat( /FIEBRE_Lab_NP_swab_1a/patient_id_type )))" nodeset="/FIEBRE_Lab_NP_swab_1a/patient_id_calculate" type="string"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_" relevant=" /FIEBRE_Lab_NP_swab_1a/patient_id_calculate !=null"/>
+      <bind constraint=".&gt;= today()" nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/date_specimen_done" required="true()" type="date"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/visit" required="true()" type="select1"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/time_specimen_done" type="time"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/SCOL" required="true()" type="select1"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/COMM" type="string"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_" relevant="(selected( /FIEBRE_Lab_NP_swab_1a/_np_/SCOL ,'yes'))"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/lab_fill" readonly="true()" type="string"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/DATER" type="date"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/DATE2" type="date"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/LABNO" type="int"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/NUMSAMP" type="int"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_" relevant="(selected( /FIEBRE_Lab_NP_swab_1a/_np_/SCOL ,'yes'))"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST" readonly="true()" type="string"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST_box" type="int"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST_poition" type="int"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/np_swab_complete" readonly="true()" relevant=" /FIEBRE_Lab_NP_swab_1a/patient_id_calculate !=null" type="string"/>
+      <bind nodeset="/FIEBRE_Lab_NP_swab_1a/no_pid" readonly="true()" relevant=" /FIEBRE_Lab_NP_swab_1a/patient_id_calculate =null" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/FIEBRE_Lab_NP_swab_1a/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="concat('Lab_NP_Swab','_', /FIEBRE_Lab_NP_swab_1a/patient_id_calculate ,'_', /FIEBRE_Lab_NP_swab_1a/lab_name )" nodeset="/FIEBRE_Lab_NP_swab_1a/meta/instanceName" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/FIEBRE_Lab_NP_swab_1a/data_type">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/data_type:label')"/>
+    </input>
+    <input ref="/FIEBRE_Lab_NP_swab_1a/note_welcome">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/note_welcome:label')"/>
+    </input>
+    <select1 appearance="quick" ref="/FIEBRE_Lab_NP_swab_1a/country">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/country:label')"/>
+      <item>
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/country/laos:label')"/>
+        <value>laos</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/country/malawi:label')"/>
+        <value>malawi</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/country/mozambique:label')"/>
+        <value>mozambique</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/country/myanmar:label')"/>
+        <value>myanmar</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/country/zimbabwe:label')"/>
+        <value>zimbabwe</value>
+      </item>
+    </select1>
+    <select1 appearance="minimal" ref="/FIEBRE_Lab_NP_swab_1a/lab_worker_name">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/lab_worker_name:label')"/>
+      <itemset nodeset="instance('health_worker_name')/root/item[country= /FIEBRE_Lab_NP_swab_1a/country ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <select1 appearance="minimal" ref="/FIEBRE_Lab_NP_swab_1a/lab_name">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/lab_name:label')"/>
+      <itemset nodeset="instance('health_centre_name')/root/item[country= /FIEBRE_Lab_NP_swab_1a/country ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <input ref="/FIEBRE_Lab_NP_swab_1a/patient_id">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/patient_id:label')"/>
+    </input>
+    <select1 appearance="quick" ref="/FIEBRE_Lab_NP_swab_1a/patient_id_scan_yes_no">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/patient_id_scan_yes_no:label')"/>
+      <hint>if no then manually type the patient ID on the next screen</hint>
+      <item>
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/patient_id_scan_yes_no/yes:label')"/>
+        <value>yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/patient_id_scan_yes_no/no:label')"/>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/FIEBRE_Lab_NP_swab_1a/patient_id_type">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/patient_id_type:label')"/>
+      <hint>The ID can be read from the sample or the storage form.</hint>
+    </input>
+    <input ref="/FIEBRE_Lab_NP_swab_1a/patient_id_check">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/patient_id_check:label')"/>
+    </input>
+    <group ref="/FIEBRE_Lab_NP_swab_1a/_np_">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_:label')"/>
+      <input appearance="no-calendar" ref="/FIEBRE_Lab_NP_swab_1a/_np_/date_specimen_done">
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/date_specimen_done:label')"/>
+      </input>
+      <select1 appearance="quick" ref="/FIEBRE_Lab_NP_swab_1a/_np_/visit">
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/visit:label')"/>
+        <item>
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/visit/enrollment:label')"/>
+          <value>enrollment</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/visit/day_28:label')"/>
+          <value>day_28</value>
+        </item>
+      </select1>
+      <input ref="/FIEBRE_Lab_NP_swab_1a/_np_/time_specimen_done">
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/time_specimen_done:label')"/>
+      </input>
+      <select1 appearance="quick" ref="/FIEBRE_Lab_NP_swab_1a/_np_/SCOL">
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/SCOL:label')"/>
+        <item>
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/SCOL/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/SCOL/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/FIEBRE_Lab_NP_swab_1a/_np_/COMM">
+        <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/COMM:label')"/>
+      </input>
+      <group appearance="field-list" ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_">
+        <input ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/lab_fill">
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/lab_fill:label')"/>
+        </input>
+        <input appearance="no-calendar" ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/DATER">
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/DATER:label')"/>
+        </input>
+        <input appearance="no-calendar" ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/DATE2">
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/DATE2:label')"/>
+        </input>
+        <input ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/LABNO">
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/LABNO:label')"/>
+        </input>
+        <input ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/NUMSAMP">
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/_np1_/NUMSAMP:label')"/>
+        </input>
+      </group>
+      <group appearance="field-list" ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_">
+        <input ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST">
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST:label')"/>
+        </input>
+        <input ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST_box">
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST_box:label')"/>
+        </input>
+        <input ref="/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST_poition">
+          <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/_np_/_np2_/NPASTST_poition:label')"/>
+        </input>
+      </group>
+    </group>
+    <input ref="/FIEBRE_Lab_NP_swab_1a/np_swab_complete">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/np_swab_complete:label')"/>
+    </input>
+    <input ref="/FIEBRE_Lab_NP_swab_1a/no_pid">
+      <label ref="jr:itext('/FIEBRE_Lab_NP_swab_1a/no_pid:label')"/>
+    </input>
+  </h:body>
+</h:html>
